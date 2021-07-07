@@ -1,0 +1,145 @@
+body{
+    padding: 0px;
+    margin:0px;
+}
+
+
+#all {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#naver {
+    background-color: #000000;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.innerT2{
+    background-color:rgb(0, 0, 0);
+    width: 456px;
+    height: 41px;
+    margin-left: 533px;
+}
+
+.innerT2 .wp_nav .nav-item {
+    float: left;
+    position: relative;
+}
+
+.innerT2 .wp_nav .nav-item a {
+    font-family: "Microsoft Yahei";
+    display: block;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    z-index: 100;
+}
+
+.innerT2 .wp_nav .nav-item a:hover{
+    background: black;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.wp_nav{
+    height: 41px;
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.wp_nav .nav-item .mark {
+    display: block;
+    width: 114px;
+    height: 41px;
+    padding-left: 21px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.navbar .navbox .wp_nav li.nav-item a span.item-name {
+    padding: 0 25px;
+    height: 41px;
+    line-height: 41px;
+}
+
+.wp_nav .nav-item a span.item-name {
+    display: inline-block;
+    cursor: pointer;
+}
+/* 顶部导航 */
+
+.content {
+    perspective: 340px;
+    width: 100%;
+    position: relative;
+}
+/* 顶部图片 */
+
+.single-story {
+    padding: 20px 20px 20px 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+
+}
+
+.single-story img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    vertical-align: middle;
+}
+
+.stories-wrap .story-box {
+    width: 31.5%;
+    margin: 0 1%;
+        margin-right: 1%;
+        margin-bottom: 0px;
+    margin-bottom: 30px;
+    vertical-align: top;
+}
+.stories-wrap .story-box {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1170px;
+}
+
+.stories-wrap {
+    text-align: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.sotry_title {
+    font-size: 36px;
+    align-self: center;
+    text-align: center;
+}
+/* 图片内容与文字 */

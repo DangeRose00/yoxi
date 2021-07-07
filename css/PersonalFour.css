@@ -1,0 +1,103 @@
+body{
+    padding: 0px;
+    margin:0px;
+}
+
+
+#naver {
+    background-color: #1388aa;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.innerT2{
+    background-color: #1388aa;
+    width: 456px;
+    height: 41px;
+    margin-left: 533px;
+}
+
+.innerT2 .wp_nav .nav-item {
+    float: left;
+    position: relative;
+}
+
+.innerT2 .wp_nav .nav-item a {
+    font-family: "Microsoft Yahei";
+    display: block;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    z-index: 100;
+}
+
+.innerT2 .wp_nav .nav-item a:hover{
+    background: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.wp_nav{
+    height: 41px;
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.wp_nav .nav-item .mark {
+    display: block;
+    width: 114px;
+    height: 41px;
+    padding-left: 21px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.navbar .navbox .wp_nav li.nav-item a span.item-name {
+    padding: 0 25px;
+    height: 41px;
+    line-height: 41px;
+}
+
+.wp_nav .nav-item a span.item-name {
+    display: inline-block;
+    cursor: pointer;
+}
+/* 顶部导航 */
+
+.content {
+    perspective: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.intText {
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 50px;
+    right: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 5px;
+}
+/* 表单 */
+
+.submit-buttons
+{
+    right: 740px;
+    position: absolute;
+}

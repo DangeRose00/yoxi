@@ -1,0 +1,177 @@
+body{
+    padding: 0px;
+    margin:0px;
+}
+
+
+#naver {
+    background-color: #000000;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.innerT2{
+    background-color: #000000;
+    width: 456px;
+    height: 41px;
+    margin-left: 533px;
+}
+
+.innerT2 .wp_nav .nav-item {
+    float: left;
+    position: relative;
+}
+
+.innerT2 .wp_nav .nav-item a {
+    font-family: "Microsoft Yahei";
+    display: block;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    z-index: 100;
+}
+
+.innerT2 .wp_nav .nav-item a:hover{
+    background: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.wp_nav{
+    height: 41px;
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.wp_nav .nav-item .mark {
+    display: block;
+    width: 114px;
+    height: 41px;
+    padding-left: 21px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.navbar .navbox .wp_nav li.nav-item a span.item-name {
+    padding: 0 25px;
+    height: 41px;
+    line-height: 41px;
+}
+
+.wp_nav .nav-item a span.item-name {
+    display: inline-block;
+    cursor: pointer;
+}
+/* 首页导航的结构布局 */
+
+.content {
+    perspective: 400px;
+    width: 100%;
+    position: relative;
+}
+/* 首页格式 */
+
+.title1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 50px;
+    right: 800px;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: 5px;
+}
+
+.title2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 100px;
+    right: 600px;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight:5px;
+}
+/* 首页文字 */
+
+.foot {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    right: 0;
+    bottom: -10px;
+    left: 1000px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight:5px;
+    font-style: italic;
+}
+/* 页脚 */
+
+.introduce {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.introduce_item {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.introduce_item_img {
+    width: 800px;
+    height: 500px;
+}
+
+.introduce_item_title {
+    width: 300px;
+    font-size: 18px;
+    line-height: 36px;
+    align-self: center;
+    padding-left: 100px;
+}
+
+.introduce_item_title1 {
+    width: 300px;
+    font-size: 18px;
+    line-height: 36px;
+    align-self: center;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.introduce_item_title2 {
+    width: 300px;
+    font-size: 18px;
+    line-height: 36px;
+    align-self: center;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.introduce_item_title3 {
+    width: 300px;
+    font-size: 18px;
+    line-height: 36px;
+    align-self: center;
+    padding-right: 100px;
+}
+/* 自我介绍 */
